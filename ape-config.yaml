@@ -1,0 +1,16 @@
+name: somewhat
+
+dependencies:
+  - name: chainlink
+    github: smartcontractkit/chainlink-mix
+    branch: main
+
+vyper:
+  version: 0.3.10
+
+arbitrum-sepolia:
+  default_network: sepolia
+  sepolia:
+    default_provider: alchemy
+
+default_ecosystem: arbitrum
